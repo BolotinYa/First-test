@@ -1,2 +1,0 @@
-let user;
-let NomberOfRepo;
