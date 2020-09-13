@@ -1,34 +1,44 @@
 .body{
-    margin: 0px;
-    background-color: lightgrey;
+    background-color: lightblue;
 }
 .main{
-    padding-top: 30px;
+    margin: 30px;
     width: 35%;
     margin-left: auto;
     margin-right: auto;
+    background-color: lightblue;
 }
-.Header{
+.nav{
+    width: 100%;
+    border: 1px solid black;
+    line-height: 30px;
 }
 .link{
     text-decoration: none;
 }
 .Logo{
     display: inline-block;
-    padding: 10px;
     border:1px black solid;
-}
-.nav{
-    width: 300px;
-    padding: 10px;
-    border: 1px black solid;
-    display: inline-block;
-    left: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
 }
 .Login{
     float: right;
+    padding-right: 10px;
 }
-.rep_list{
+.repName{
     list-style: none;
     line-height: 3rem;
+}
+.userName{
+    line-height: 30px;
+    margin: 20px;
+}
+.repoName{
+    margin: 20px;
+}
+.img{
+    display: ;
+    width: 100%;
 }

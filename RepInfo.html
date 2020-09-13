@@ -1,22 +1,69 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="utf-8">
     <link href="Style.css" rel="stylesheet">
 </head>
+
 <body>
-<div class="main">
-    <div class="Logo">
-        <a href="#" class="link">PonyHub</a>
-    </div><div class="nav">
-        <a href="#" class="link">Repositories</a>
-        <a href="#" class="link">Users</a>
-        <a href="#" class="link">Gists</a>
-        <a href="#" class="Login">Login</a>
+    <div class="main">
+        <div class="nav">
+            <a href="#" class="logo">PonyHub</a>
+            <a href="#" class="link">Repositories</a>
+            <a href="#" class="link">Users</a>
+            <a href="#" class="link">Gists</a>
+            <a href="#" class="Login">Login</a>
+        </div>
+        <span class="userName">TomHanks</span><a>/</a><span class="repoName">Repo1</span>
+        <h1 id="Description">Description</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex iusto, error voluptatibus illo in nisi saepe
+            recusandae suscipit, distinctio nulla asperiores perspiciatis illum ad consequuntur consectetur id dolores
+            beatae aliquam.</p>
+        <select id="repoAmount" class="selector">
+        </select>
+        <img id="imgId" class='img' src="">        
     </div>
-<span style="margin: 20px; margin-top: 20px;">TomHanks</span><a>/</a><span style="margin: 20px;">Repo1</span>
-<h1>Description</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex iusto, error voluptatibus illo in nisi saepe recusandae suscipit, distinctio nulla asperiores perspiciatis illum ad consequuntur consectetur id dolores beatae aliquam.</p>
-<select name="" id=""></select>
-<div>файл репозитория</div>
-</div>
+
+    
+    <script>
+        var requestURL = 'https://repetitora.net/api/JS/Images';
+        var request = new XMLHttpRequest();
+        var image = document.getElementById('imgId');
+        var selector = document.getElementById('repoAmount');
+
+        request.open('GET', requestURL);
+        request.responseType = 'json';
+        request.send();
+
+        request.onload = function()
+        {
+            var imgArr = request.response;
+            console.log(imgArr);
+            fillSelector(imgArr);
+            showImg(imgArr);
+
+            function changeImg() {
+            showImg(imgArr)
+            }
+            repoAmount.addEventListener('change', changeImg);
+            
+        }
+        
+        function fillSelector(jsonObj)
+        {
+            for (let i = 0; i < jsonObj.length; i++) {
+                var option = document.createElement('option');
+                option.textContent = i + 1;
+                repoAmount.append(option);
+            }
+        }
+
+        function showImg(jsonObj) {
+            var selectedImg = selector.value;
+            image.src = jsonObj[selectedImg - 1].original;
+        }
+
+        
+    </script>
+
 </body>
