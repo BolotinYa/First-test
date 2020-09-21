@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Tom Hanks",
+        "password": "password",
+        "id":1,
+        "avatar": "https://www.startfilm.ru/images/base/person/07_08_16/92108_tom-hanks70.jpg"
+    },
+    {
+        "name": "Joe Pesci",
+        "password": "password",
+        "id":2,
+        "avatar": "https://avatars.mds.yandex.net/get-zen_doc/1328418/pub_5d7a662be4f39f00ae5cf227_5d7a7bb58600e100add90b0d/scale_1200"
+    },
+    {
+        "name": "Robert De Niro",
+        "password": "password",
+        "id":3,
+        "avatar": "https://prabook.com/web/show-photo.jpg?id=1916141"
+    },
+    {
+        "name": "Al Pachino",
+        "password": "password",
+        "id":4,
+        "avatar": "https://img-s3.onedio.com/id-5655a421baf0c6610b4f3db1/rev-0/raw/s-55fbd0735767f7e58ee8f22d1bbc53b4bd30c403.jpg"
+    }
+]
