@@ -1,0 +1,82 @@
+// Стили основного контейнера
+
+.main{
+    margin: 30px auto auto;
+    width: 35%;
+    background-color: lightblue;
+
+    // Стили для заголовочной части страницы
+
+    .nav{
+        width: 100%;
+    border: 1px solid black;
+    line-height: 30px;
+    position: relative;
+        a{
+            text-decoration: none;
+            &:hover{
+                color: red;
+            }
+        }
+        .logo{
+            display: inline-block;
+            border:1px black solid;
+            padding-left: 5px;
+            padding-right: 5px;
+            text-decoration: none;
+        }
+        .login{
+            float: right;
+            padding-right: 10px;
+            form{
+                display: none;
+                position: absolute;
+                padding: 20px;
+                border: 1px solid black;
+                right: 0;
+                top: 32px;
+                background-color: brown;
+                input{
+                    display: block;
+                }
+            }
+            &:hover form {
+            display: block;
+            }
+        }
+    }
+}
+
+/* стили для RepInfo */
+
+.user-name{
+    line-height: 30px;
+    margin: 20px;
+}
+
+.repo-name{
+    margin: 20px;
+}
+
+.img{
+    width: 100%;
+}
+
+/* стили для RepList */
+
+.rep-name{
+    list-style: none;
+    line-height: 3rem;
+}
+
+/*стили для UserInfo*/
+
+.avatar{
+    float: left;
+    margin: 20px;
+    text-align: center;
+    img{
+    max-width: 200px;
+    max-height: 200px;
+    }
+}

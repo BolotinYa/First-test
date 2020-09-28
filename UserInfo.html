@@ -1,1 +1,35 @@
-Empty
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="SCSS to CSS.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <a href="#" class="logo">PonyHub</a>
+            <a href="RepList.html" >Repositories</a>
+            <a href="UserList.html" >Users</a>
+            <a href="#" >Gists</a>
+            <div class="login">Login            
+                <form>
+                Name <input>
+                Password <input>
+                <button>Log In</button>
+                <a href="#">Don't have a Login?</a>
+            </form>
+            </div>
+        </div>
+            <div class="avatar">
+                <img id="avatarImg"class="avatar__img" src="https://www.startfilm.ru/images/base/person/07_08_16/92108_tom-hanks70.jpg" alt="">
+                <div style="clear: both;"></div>
+                <span style="margin: 15px;">Followers <a href="#">0</a></span><span style="margin: 15px;">Likes <a href="#">0</a></span>
+            </div>
+        <h1 id="userName" style="padding: 20px;">User</h1>
+        Id:<select id="selector"></select>
+        <p>Nomber of Repositories:<a id="nomberOfRepo" href="RepInfo.html">0</a></p>
+        <div style="clear: both;"></div>
+    </div>
+    <script src="js/userinfo.js"></script>
+</body>
