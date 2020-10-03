@@ -1,0 +1,90 @@
+@charset "UTF-8";
+body {
+  background-color: lightgray;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 30px auto auto;
+  width: 35%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.main .nav {
+  width: 100%;
+  border: 1px solid black;
+  line-height: 30px;
+  position: relative;
+}
+.main .nav a {
+  text-decoration: none;
+}
+.main .nav a:hover {
+  color: red;
+}
+.main .nav .logo {
+  display: inline-block;
+  border: 1px black solid;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+}
+.main .nav .login {
+  float: right;
+  padding-right: 10px;
+}
+.main .nav .login form {
+  display: none;
+  position: absolute;
+  padding: 20px;
+  border: 1px solid black;
+  right: 0;
+  top: 32px;
+  background-color: brown;
+}
+.main .nav .login form input {
+  display: block;
+}
+.main .nav .login:hover form {
+  display: block;
+}
+
+/* стили для RepInfo */
+.user-name {
+  line-height: 30px;
+  margin: 20px;
+}
+
+.repo-name {
+  margin: 20px;
+}
+
+.img {
+  width: 100%;
+}
+
+/* стили для RepList */
+.rep-name {
+  list-style: none;
+  line-height: 3rem;
+}
+
+.add-repo-form label {
+  display: inline-block;
+  width: 100px;
+}
+.add-repo-form button {
+  display: block;
+  margin-top: 20px;
+}
+
+/*стили для UserInfo*/
+.avatar {
+  float: left;
+  margin: 20px;
+  text-align: center;
+}
+.avatar img {
+  max-width: 200px;
+  max-height: 200px;
+}
