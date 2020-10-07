@@ -1,1 +1,28 @@
-empty
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="SCSS to CSS.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <a href="#" class="logo">PonyHub</a>
+            <a href="RepList.html" >Repositories</a>
+            <a href="UserList.html" >Users</a>
+            <a href="#" >Gists</a>
+            <div class="login">Login            
+                <form>
+                Name <input>
+                Password <input>
+                <button>Log In</button>
+                <a href="#">Don't have a Login?</a>
+            </form>
+            </div>
+        </div>
+        <h1 style="padding: 20px;">Users:</h1>
+        <ol id="userList"></ol>
+    </div>
+    <script src="js/usersTS.js"></script>
+</body>

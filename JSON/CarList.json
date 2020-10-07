@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Car 1",
+        "description": "Крутой черный тачка",
+        "imgUrl": "https://cdn4.3dtuning.com/info/Audi%2080%201991%20Sedan/tuning/6.jpg",
+        "user": "Tom Hanks"
+    },
+    {
+        "name": "Car 2",
+        "description": "Крутой оражевый тачка",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRtZMmls44SAAqv-Cza-hiryspwUVMH-3okRA&usqp=CAU",
+        "user": "Tom Hanks"
+    },
+    {
+        "name": "Car 3",
+        "description": "Крутой баклажановый тачка",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQT8ErxP2uX9cny4QSk2uvccgCSQ1e9YJr3WQ&usqp=CAU",
+        "user": "Tom Hanks"
+    },
+    {
+        "name": "Car 4",
+        "description": "Крутой черный тачка",
+        "imgUrl": "https://cdn4.3dtuning.com/info/Audi%2080%201991%20Sedan/tuning/6.jpg",
+        "user": "Tom Hanks"
+    },
+    {
+        "name": "Car 5",
+        "description": "Крутой оражевый тачка",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRtZMmls44SAAqv-Cza-hiryspwUVMH-3okRA&usqp=CAU",
+        "user": "Tom Hanks"
+    },
+    {
+        "name": "Car 6",
+        "description": "Крутой баклажановый тачка",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQT8ErxP2uX9cny4QSk2uvccgCSQ1e9YJr3WQ&usqp=CAU",
+        "user": "Tom Hanks"
+    }
+]
